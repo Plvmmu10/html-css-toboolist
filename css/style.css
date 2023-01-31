@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-family: Arial;
+    font-family: Helvetica, Arial;
 }
 
 /* color list */
@@ -122,7 +122,7 @@ header{
 
 #title{
     display: inline-block;
-    font-size: 70px;
+    font-size: 400%;
     vertical-align: top;
 }
 
