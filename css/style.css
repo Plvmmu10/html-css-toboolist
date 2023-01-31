@@ -5,6 +5,96 @@
     font-family: Arial;
 }
 
+/* color list */
+/* editorial = rgb(71, 173, 241) */
+/* q1 goals = rgb(155, 113, 227) */
+/* recruiting = rgb(100, 192, 169) */
+/* mobile = rgb(241, 157, 49) */
+/* website = rgb(216, 99, 161) */
+/* sales = rgb(176, 201, 38) */
+
+/* tasktype configuration */
+.editorial{
+    margin: 0.5%;
+    height: 5%;
+    width: 5%;
+    background-color: rgb(71, 173, 241);
+    border: 1px solid rgb(71, 173, 241);
+    border-radius: 10px;
+    color: white;
+    padding: 0.3%;
+    font-size: 70%;
+}
+
+.q1-goals{
+    margin: 0.5%;
+    height: 5%;
+    width: 5%;
+    background-color: rgb(155, 113, 227);
+    border: 1px solid rgb(155, 113, 227);
+    border-radius: 10px;
+    color: white;
+    padding: 0.3%;
+    font-size: 70%;
+}
+
+.recruiting{
+    margin: 0.5%;
+    height: 5%;
+    width: 5%;
+    background-color: rgb(100, 192, 169);
+    border: 1px solid rgb(100, 192, 169);
+    border-radius: 10px;
+    color: white;
+    padding: 0.3%;
+    font-size: 70%;
+}
+
+.mobile{
+    margin: 0.5%;
+    height: 5%;
+    width: 5%;
+    background-color: rgb(241, 157, 49) ;
+    border: 1px solid rgb(241, 157, 49) ;
+    border-radius: 10px;
+    color: white;
+    padding: 0.3%;
+    font-size: 70%;
+}
+
+.website{
+    margin: 0.5%;
+    height: 5%;
+    width: 5%;
+    background-color: rgb(216, 99, 161) ;
+    border: 1px solid rgb(216, 99, 161) ;
+    border-radius: 10px;
+    color: white;
+    padding: 0.3%;
+    font-size: 70%;
+}
+
+.sales{
+    margin: 0.5%;
+    height: 5%;
+    width: 5%;
+    background-color: rgb(176, 201, 38) ;
+    border: 1px solid rgb(176, 201, 38) ;
+    border-radius: 10px;
+    color: white;
+    padding: 0.3%;
+    font-size: 70%;
+}
+
+
+/* check configuration */
+.check{
+    color: rgb(119, 230, 202);
+    border: 1px solid rgb(119, 230, 202);
+    border-radius: 50%;
+}
+/* cross configuration */
+
 
 /* Title with logo configuration */
 header{
@@ -36,6 +126,8 @@ body{
     background-color: black;
 }
 
+
+
 main{
     background-color: white;
     width: 80%;
@@ -44,10 +136,11 @@ main{
     border-radius: 5px;
 }
 
+/* command configuration */
 .command-section{
     background-color: white;
     width: 100%;
-    height: 70%;
+    height: 20%;
     border-radius: 5px;
 }
 
@@ -62,7 +155,7 @@ main{
     margin: 1%;
     margin-right: 0.1%;
     height: 5%;
-    width: 5%;
+    width: 6%;
     background-color: rgb(71, 173, 241);
     text-align: center;
     padding: 0.5%;
@@ -85,3 +178,23 @@ main{
     border: 1px solid rgb(176, 178, 179);
     color: rgb(176, 178, 179);
 }
+
+  
+/* list configuration */
+
+.main-list{
+    background-color: white;
+    width: 100%;
+    height: 80%;
+    padding-top: 5%;
+    margin-top: 1%;
+    padding-left: 2%;
+}
+
+/* new task configuration */
+
+.new-task-list{
+    list-style-type: none;
+}
+
+
