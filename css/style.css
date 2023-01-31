@@ -95,6 +95,11 @@
 }
 /* cross configuration */
 
+.cross{
+    color: rgb(236, 87, 77);
+    border: 1px solid rgb(236, 87, 77);
+    border-radius: 50%;
+}
 
 /* Title with logo configuration */
 header{
@@ -191,9 +196,9 @@ main{
     padding-left: 2%;
 }
 
-/* new task configuration */
+/* list configuration */
 
-.new-task-list{
+.list{
     list-style-type: none;
 }
 
